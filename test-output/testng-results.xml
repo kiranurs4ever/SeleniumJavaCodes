@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="9" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-18T10:48:30 IST" name="mysuite" finished-at="2022-03-18T10:48:30 IST" duration-ms="49">
+    <groups>
+      <group name="regression">
+        <method signature="GroupingDemo.paymentInRupees()[pri:7, instance:Day37.GroupingDemo@2c35e847]" name="paymentInRupees" class="Day37.GroupingDemo"/>
+        <method signature="GroupingDemo.signupByEmail()[pri:4, instance:Day37.GroupingDemo@2c35e847]" name="signupByEmail" class="Day37.GroupingDemo"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="GroupingDemo.loginByfacebook()[pri:2, instance:Day37.GroupingDemo@2c35e847]" name="loginByfacebook" class="Day37.GroupingDemo"/>
+        <method signature="GroupingDemo.loginBytwitter()[pri:3, instance:Day37.GroupingDemo@2c35e847]" name="loginBytwitter" class="Day37.GroupingDemo"/>
+        <method signature="GroupingDemo.paymentInDolars()[pri:8, instance:Day37.GroupingDemo@2c35e847]" name="paymentInDolars" class="Day37.GroupingDemo"/>
+        <method signature="GroupingDemo.paymentInRupees()[pri:7, instance:Day37.GroupingDemo@2c35e847]" name="paymentInRupees" class="Day37.GroupingDemo"/>
+        <method signature="GroupingDemo.signupByEmail()[pri:4, instance:Day37.GroupingDemo@2c35e847]" name="signupByEmail" class="Day37.GroupingDemo"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-03-18T10:48:30 IST" name="mytest" finished-at="2022-03-18T10:48:30 IST" duration-ms="49">
+      <class name="Day37.GroupingDemo">
+        <test-method signature="loginByfacebook()[pri:2, instance:Day37.GroupingDemo@2c35e847]" started-at="2022-03-18T10:48:30 IST" name="loginByfacebook" finished-at="2022-03-18T10:48:30 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByfacebook -->
+        <test-method signature="loginBytwitter()[pri:3, instance:Day37.GroupingDemo@2c35e847]" started-at="2022-03-18T10:48:30 IST" name="loginBytwitter" finished-at="2022-03-18T10:48:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBytwitter -->
+        <test-method signature="signupByEmail()[pri:4, instance:Day37.GroupingDemo@2c35e847]" started-at="2022-03-18T10:48:30 IST" name="signupByEmail" finished-at="2022-03-18T10:48:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupByEmail -->
+        <test-method signature="paymentInRupees()[pri:7, instance:Day37.GroupingDemo@2c35e847]" started-at="2022-03-18T10:48:30 IST" name="paymentInRupees" finished-at="2022-03-18T10:48:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentInRupees -->
+        <test-method signature="paymentInDolars()[pri:8, instance:Day37.GroupingDemo@2c35e847]" started-at="2022-03-18T10:48:30 IST" name="paymentInDolars" finished-at="2022-03-18T10:48:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentInDolars -->
+      </class> <!-- Day37.GroupingDemo -->
+    </test> <!-- mytest -->
+  </suite> <!-- mysuite -->
+</testng-results>
